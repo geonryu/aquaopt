@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaOPT</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/various.css">
+    <link rel="stylesheet" href="./css/pc.css">
+    <link rel="stylesheet" href="./css/sub-common.css">
+    <link rel="stylesheet" href="./css/healthier-fish.css">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/MotionPathPlugin.min.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/jsQR.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <div class="wrap">
+                <h1 class="logo"><a href="./index.html"><img src="./images/m_images/Logo-d.png" alt=""></a></h1>
+                <div class="btn nav-control-toggle" id="navBtn">
+                    <button>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <nav id="navigation">
+                    <div class="nav-wrapper">
+                        <ul class="gnb">
+                            <li>
+                                <a href="./innovation.html">
+                                    <span class="sub-tit">기술혁신</span>
+                                    <span class="main-tit">INNOVATION</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./sustainability.html">
+                                    <span class="sub-tit">지속가능성</span>
+                                    <span class="main-tit">SUSTAINABILITY</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./healthierfish.html">
+                                    <span class="sub-tit">더 건강한 물고기</span>
+                                    <span class="main-tit">HEALTHIER FISHES</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./cpt.html">
+                                    <span class="sub-tit">잉어이력시스템</span>
+                                    <span class="main-tit">
+                                        CARP PRODUCTS<br>
+                                        TRACEABILITY
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./contact.html">
+                                    <span class="sub-tit">문의하기</span>
+                                    <span class="main-tit">CONTACT US</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <style>#header{background: none} header .wrap .nav-control-toggle button span{background-color: #093557;}</style>
+        <main>
+            <div class="wrap">
+                <ul class="page-route">
+                    <li><a href="./index.html"><span class="material-symbols-outlined">home</span>HOME</a></li>
+                    <li><a href="./healthierfish.html">THE HEALTHIER FISH</a></li>
+                </ul>
+                <h2>
+                    건강한 먹거리를 위한<br>
+                    AquaOPT의 건강한 물고기 철학
+                </h2>
+            </div>
+        </main>
+        <section class="section-1">
+            <div class="wrap">
+                <div class="tit">
+                    <div class="sec-tit">
+                        1947년부터 이어진<br>
+                        건강한 물고기에 대한 고민
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="content-wrap">
+                        <div class="c-thumb">
+                        </div>
+                        <div class="c-txt">
+                            <div class="c-txt-1">
+                                AquaOPT의 뿌리인 경남 양산의 우정양식장은 1974년 한국 양식업계의 1세대로서 지금까지도 그 입지를 굳건히 지켜오고 있습니다.
+                                <br>
+                                오랜 세월동안 축적된 수산양식에 대한 데이터는 현대적인 기술과 첨단 장비를 통해 차세대 양식 산업 시장을 개척하여 스마트 양식 4.0을 선도하고자 합니다.
+                            </div>
+                            <div class="c-txt-2">
+                                AquaOPT의 빅데이터 기반의 양식 혁신은 빠른 기간 내에 많은 물고기를 양산하는데 목적을 두지 않습니다.
+                                <br>
+                                물고기에게 무해한 자연환경을 그대로 조성하여 Low Stress, High Value를 실현하여 더 건강한 물고기를 키워내는 것을 목표로 합니다.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                ScrollTrigger.matchMedia({
+                    "(max-width: 919px)": function() {
+                        gsap.to(".c-thumb", {
+                            scrollTrigger : {
+                                trigger: ".c-thumb",
+                                start: "top top",
+                                end: "bottom top",
+                                pin: true,
+                                pinSpacing: false,
+                                toggleClass: "on",
+                                toggleActions: "play reverse restart reverse"
+                            },
+                            scale : 1.2
+                        })
+                    }
+                }); 
+            </script>
+        </section>
+        <section class="section-2">
+            <div class="wrap">
+                <div class="content content-1">
+                    <div class="c-thumb"><img src="./images/sub_images/health-sec-con-1.jpeg" alt=""></div>
+                    <div class="c-txt">
+                        <div class="c-tit">
+                            빠르게 키우지 않습니다.<br>
+                            자연에서의 경험 그대로 올곧게 키웁니다.
+                        </div>
+                        <div class="c-desc">
+                            AquaOPT의 모든 양식 시스템은 기존의 양적 성장에만 몰두한 양식산업에서 벗어나, 물고기의 자연상태의 성장 주기를 그대로 재현하는 지능적인 양식 기술입니다.<br>
+                            수조 환경은 물론 급이와 동면, 그리고 생식까지 모든 방면에서 최적화된 환경을 제공하여 더 건강한 물고기를 위한 진보된 기술을 연구합니다.
+                        </div>
+                    </div>
+                </div>
+                <div class="content content-2">
+                    <div class="c-thumb"><img src="./images/sub_images/health-sec-con-2.jpg" alt=""></div>
+                    <div class="c-txt">
+                        <div class="c-tit">
+                            물고기에게 좋은 환경이<br>
+                            사람에게도 이로울 것이라는 생각.
+                        </div>
+                        <div class="c-desc">
+                            맞춤형 급이 조절 시스템과 같은 AquaOPT의 독창적인 기술은 물고기를 더 건강하게하고, 수산양식 산업에 의한 무분별한 자연 훼손을 최소화합니다.<br>
+                            결과적으로 더 건강한 물고기를 위한 우리의 노력은 사람과 지구를 위한 Eco-friendly 솔루션입니다.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-3">
+            <div class="wrap">
+                <div class="tit">
+                    첨단 기술 중심의<br>
+                    양식산업의 대전환
+                </div>
+                <div class="content swiper">
+                    <button class="slide-prev"><span class="material-symbols-outlined">east</span></button>
+                    <button class="slide-next"><span class="material-symbols-outlined">east</span></button>
+                    <div class="swiper-wrapper">
+                        <div class="item1 swiper-slide glass-morph">
+                            <div class="item-ico"><img src="./images/sub_images/health-item-ico-1.png" alt=""></div>
+                            <div class="item-txt">
+                                <div class="item-txt-tit">NO HORMONES<br>ANTIBIOTICS</div>
+                                <div class="item-txt-desc">성장 촉진이나 폐사 방지를 위한 호르몬과 항생제 사용이 불필요합니다.</div>
+                            </div>
+                        </div>
+                        <div class="item2 swiper-slide glass-morph">
+                            <div class="item-ico"><img src="./images/sub_images/health-item-ico-2.png" alt=""></div>
+                            <div class="item-txt">
+                                <div class="item-txt-tit">ZERO<br>MICROPLASTICS</div>
+                                <div class="item-txt-desc">수질 환경오염이 발생하지 않는 위생적인 수조환경을 유지합니다.</div>
+                            </div>
+                        </div>
+                        <div class="item3 swiper-slide glass-morph">
+                            <div class="item-ico"><img src="./images/sub_images/health-item-ico-3.png" alt=""></div>
+                            <div class="item-txt">
+                                <div class="item-txt-tit">NO PREDETORS</div>
+                                <div class="item-txt-desc">수산양식에 치명적인 이종 어류나 조류 등의 천적의 유입이 절대 불가능한 설계를 구축합니다.</div>
+                            </div>
+                        </div>
+                        <div class="item4 swiper-slide glass-morph">
+                            <div class="item-ico"><img src="./images/sub_images/health-item-ico-4.png" alt=""></div>
+                            <div class="item-txt">
+                                <div class="item-txt-tit">NO PARASITES<br>& DISEASE</div>
+                                <div class="item-txt-desc">독자적인 물고기 추적시스템과 양어 환경 제어 자동화를 통해 기생충과 질병을 사전예방하고 즉시 조치합니다.</div>
+                            </div>
+                        </div>
+                        <div class="item5 swiper-slide glass-morph">
+                            <div class="item-ico"><img src="./images/sub_images/health-item-ico-5.png" alt=""></div>
+                            <div class="item-txt">
+                                <div class="item-txt-tit">OPTIMAL FEEDING</div>
+                                <div class="item-txt-desc">빠른 성장을 위한 과잉급이를 피하고 건강한 성장과 수질 환경 개선을 도모합니다.</div>
+                            </div>
+                        </div>
+                        <div class="item6 swiper-slide glass-morph">
+                            <div class="item-ico"><img src="./images/sub_images/health-item-ico-6.png" alt=""></div>
+                            <div class="item-txt">
+                                <div class="item-txt-tit">LOW STRESS</div>
+                                <div class="item-txt-desc">물고기의 자연적인 성장 주기를 완벽하게 구현하여 외부적인 스트레스를 최소화합니다.</div>
+                            </div>
+                        </div>
+                        <div class="item7 swiper-slide glass-morph">
+                            <div class="item-ico"><img src="./images/sub_images/health-item-ico-7.png" alt=""></div>
+                            <div class="item-txt">
+                                <div class="item-txt-tit">SUFFICIENT GROWTH</div>
+                                <div class="item-txt-desc">유통 효율을 위해 무분별한 양어를 절대 지양하고, 충분한 성장을 할 수 있도록 환경을 제공합니다.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <script>
+                let healthSwiper = new Swiper(".section-3 .content", {
+                    spaceBetween: "5%",
+                    pagination: {
+                        el: ".swiper-pagination"
+                    },
+                    navigation: {
+                        nextEl: ".slide-next",
+                        prevEl: ".slide-prev",
+                    },
+                    breakpoints: {
+                        650: {
+                            spaceBetween: "3%",
+                            slidesPerView: 2,
+                        },
+                        920: {
+                            spaceBetween: 16,
+                            slidesPerView: 3,
+                        },
+                        1200: {
+                            spaceBetween: 24,
+                            slidesPerView: 4,
+                        },
+                    },
+                });
+
+                let ck = false;
+                const ckMedia =()=> {
+                    let ckMedia = matchMedia("all and (min-width: 1200px)").matches;
+                    if(!ck && ckMedia) { 
+                        ck = !ck;
+                        $(".section-3 .content .swiper-slide").on("click", function() {
+                            $(this).find(".item-txt-desc").stop().slideDown();
+                            $(this).siblings().find(".item-txt-desc").stop().slideUp();
+                            $(this).addClass("on");
+                            $(this).siblings().removeClass("on");
+                        })
+                        $(".section-3 .content .swiper-slide").removeClass("on");
+                        $(".section-3 .content .swiper-slide .item-txt-desc").hide();
+                        console.log("aaa");
+                    } else if(ck && !ckMedia){
+                        ck = !ck;
+                        $(".section-3 .content .swiper-slide").off("click");
+                        $(".section-3 .content .swiper-slide").removeClass("on");
+                        $(".section-3 .content .swiper-slide .item-txt-desc").show();
+                    }
+                }
+                $(window).resize(ckMedia);
+                ckMedia();
+                
+            </script>
+        </section>
+        <footer>
+            <div class="wrap">
+                <h2><a href="./index.html"><img src="./images/m_images/Logo-d.png" alt="아쿠아OPT 로고"></a></h2>
+                <div class="content">
+                    <div class="sitemap">
+                        <span class="sitemap-tit">SITE MAP</span>
+                        <div><a href="#">기술혁신</a></div>
+                        <div><a href="#">지속가능성</a></div>
+                        <div><a href="#">더 건강한 물고기</a></div>
+                        <div><a href="#">잉어이력시스템</a></div>
+                        <div><a href="#">문의하기</a></div>
+                    </div>
+                    <ul class="information">
+                        <li>
+                            <span class="txt-highlight">E-Mail</span>
+                            aquaoptkorea@gmail.com
+                        </li>
+                        <!-- <li>
+                                <span class="txt-highlight">FAX</span>
+                                +82 (0)51 123 1234
+                            </li> -->
+                        <li>
+                            <span class="txt-highlight">TEL</span>
+                            +82 (0)10 3591 2635
+                        </li>
+                    </ul>
+                </div>
+                <address>
+                    <p>
+                        2005-44, Yangsan-daero, Habuk-myeon, Yangsan-si, Gyeongsangnam-do, Republic of Korea<br>
+                        COPYRIGHT © AquaOPT ALL RIGHTS RESERVED
+                    </p>
+                    <form action="" id="footerSelect" class="family-site">
+                        <select name="familySite" id="familySite">
+                            <option selected>FAMILY SITE</option>
+                            <option value="">황금연못에사는잉어</option>
+                        </select>
+                    </form>
+                </address>
+            </div>
+            <div class="btn-scr-top">
+                <div class="btn-inner">
+                    <button class="scr-top" id="scrTop">
+                        <span class="material-symbols-outlined">
+                            expand_less
+                        </span>
+                        TOP
+                    </button>
+                </div>
+            </div>
+        </footer>
+        <style>
+            #wrapper{background-color: #fff;}
+        </style>
+    </div>
+</body>
+</html>

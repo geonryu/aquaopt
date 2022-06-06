@@ -1,0 +1,416 @@
+main{background-image: url(../images/sub_images/aquaopt-tank-in.jpg); background-position: center top;}
+
+.section-1{
+    background-color: #f9fafb;
+    overflow: hidden;
+}
+.section-1 .wrap{}
+/* .section-1 .wrap .tit{} */
+.section-1 .wrap .content{}
+.section-1 .wrap .content .ctxt{margin-bottom: 100px;}
+.section-1 .wrap .content .ctxt:last-child{margin-bottom: 0;}
+.section-1 .wrap .content .ctxt .desc-box{margin-bottom: 16px;}
+.section-1 .wrap .content .ctxt .desc-box .desc-tit{font-size: 20px; font-weight: 700;}
+.section-1 .wrap .content .ctxt .desc-box .desc-txt{font-size: 14px; margin: 12px 0 0 0;}
+.section-1 .wrap .content .ctxt .data-pictogram{
+    position: relative;
+}
+.section-1 .wrap .content .ctxt-1 .data-pictogram .world-map-bg{
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    aspect-ratio: 1 / 1;
+    border: 1px solid #edeff9;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: translateZ(0);
+    will-change: transform;
+}
+.section-1 .wrap .content .ctxt-1 .data-pictogram .world-map-bg .map{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section-1 .wrap .content .ctxt-1 .data-pictogram .world-map-bg .map .world-map{
+    height: 100%;
+    width: unset;
+    max-width: unset;
+}
+.section-1 .wrap .content .ctxt-1 .data-pictogram .world-map-bg .map .pin1{
+    display: block;
+    width: 3%;
+    position: absolute;
+    top: 42%;
+    left: 20%;
+} 
+.section-1 .wrap .content .ctxt-1 .data-pictogram .world-map-bg .map .pin2{
+    display: block;
+    width: 3%;
+    position: absolute;
+    top: 49%;
+    left: 77%;
+}
+.section-1 .wrap .content .ctxt-1 .data-pictogram .world-map-bg span img{
+    width: 100%;
+    height: auto;
+}
+.section-1 .wrap .content .ctxt-1 .data-pictogram .world-map-pic1{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 50%;
+    height: auto;
+}
+.section-1 .wrap .content .ctxt-1 .data-pictogram .world-map-pic2{
+    position: absolute;
+    right: 100%;
+    bottom: 0;
+    width: 50%;
+    height: auto;
+}
+.section-1 .wrap .content .ctxt-2 .data-pictogram{
+    display: flex;
+    width: 150%;
+}
+.section-1 .wrap .content .ctxt-2 .data-pictogram > div{
+    position: relative;
+}
+.section-1 .wrap .content .ctxt-2 .data-pictogram .demo-2{margin-top: 12.6%;}
+.section-1 .wrap .content .ctxt-2 .data-pictogram > div img.demo{
+    position: absolute;
+    top: 3.5%;
+    left: 5%;
+    width: 85%;
+}
+
+.section-1 .wrap .content .ctxt-3 .data-pictogram .demo-3{
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+}
+.section-1 .wrap .content .ctxt-3 .data-pictogram > div img.demo{
+    position: absolute;
+    top: 3.5%;
+    left: 5%;
+    width: 85%;
+}
+.section-1 .wrap .content .ctxt-3 .data-pictogram .demo-3 .demo-slider{
+    position: absolute;
+    bottom: 10%;
+    left: 12%;
+}
+.section-1 .wrap .content .ctxt-3 .data-pictogram .demo-3 .demo-slider .slider-wrapper{
+    display: flex;
+    position: relative;
+}
+.section-1 .wrap .content .ctxt-3 .data-pictogram .demo-3 .demo-slider .slider-wrapper .slide-demo{
+    width: 40vw;
+    opacity: 0.5;
+    transition: opacity 0.6s;
+}
+.section-1 .wrap .content .ctxt-3 .data-pictogram .demo-3 .demo-slider .slider-wrapper .slide-demo.on{
+    opacity: 1;
+}
+.section-1 .wrap .content .ctxt-3 .data-pictogram .demo-3 .demo-slider .slider-wrapper .slide-demo img{
+    width: 100%;
+}
+.section-1 .wrap .content .ctxt-4 .data-pictogram{
+    position: relative;
+}
+.section-1 .wrap .content .ctxt-4 .data-pictogram .cities{
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    padding-top: 40px;
+}
+.section-1 .wrap .content .ctxt-4 .data-pictogram .cities .city .city-in{
+    display: block;
+    transform: translateY(100%);
+}
+.section-1 .wrap .content .ctxt-4 .data-pictogram .cities .city .city-in .img-wrapper{
+    position: relative;
+    margin-top: 100%;
+    display: block;
+}
+.section-1 .wrap .content .ctxt-4 .data-pictogram .cities .city .city-in .ico{
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%, -10px);
+    width: 8vw;
+}
+.section-1 .wrap .content .ctxt-4 .data-pictogram .circle{
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgba(237,239,249, 0), rgba(237,239, 249, 1));
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-2{
+    background-color: #edeff9;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+.section-2.active{
+    background-color: #093557;
+    color: #fff;
+}
+
+.section-2.active .wrap .tit .sec-subtit{color: #fff;}
+.section-2 .wrap{}
+/* .section-2 .wrap .tit{} */
+.section-2 .wrap .content{}
+.section-2 .wrap .content .ctxt{margin-bottom: 100px;}
+.section-2 .wrap .content .ctxt:last-child{margin-bottom: 0;}
+.section-2 .wrap .content .ctxt .desc-box{margin-bottom: 16px;}
+.section-2 .wrap .content .ctxt .desc-box .desc-tit{font-size: 20px; font-weight: 700;}
+.section-2 .wrap .content .ctxt .desc-box .desc-txt{font-size: 14px; margin: 12px 0 0 0;}
+.section-2 .wrap .content .ctxt .data-pictogram{
+    position: relative;
+}
+
+.section-2 .wrap .content .ctxt-1 .data-pictogram{
+    position: relative;
+    width: 80%;
+    margin: 13.33vw auto 0;
+}
+.section-2 .wrap .content .ctxt-1 .data-pictogram img.data-pic1{}
+.section-2 .wrap .content .ctxt-1 .data-pictogram img.data-pic2{
+    position: absolute; 
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%; 
+    animation: float 1s ease-out infinite alternate;
+    z-index: 2;
+}
+@keyframes float {0%{transform: translate(-50%, -35%);}100%{transform: translate(-50%, -65%);}}
+.section-2 .wrap .content .ctxt-1 .data-pictogram img.data-pic3{
+    position: absolute; 
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 50%;
+    z-index: 3;
+}
+.section-2 .wrap .content .ctxt-1 .data-pictogram img.data-pic4{
+    position: absolute; 
+    width: 50%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-71%);    
+    z-index: 1;
+}
+
+.section-2 .wrap .content .ctxt-2 .data-pictogram{
+    position: relative;
+}
+.section-2 .wrap .content .ctxt-2 .data-pictogram img.fish{width: 80%; display: block; margin: 0 auto;}
+.section-2 .wrap .content .ctxt-2 .data-pictogram img.dot{
+    width: 25px;
+    position: absolute
+}
+.section-2 .wrap .content .ctxt-2 .data-pictogram img.dot-1{opacity: .4; top: 2%; left: 0;}
+.section-2 .wrap .content .ctxt-2 .data-pictogram img.dot-2{opacity: 1; top: 0%; left: 52%;}
+.section-2 .wrap .content .ctxt-2 .data-pictogram img.dot-3{opacity: .8; top: 5%; left: 82%;}
+.section-2 .wrap .content .ctxt-2 .data-pictogram img.dot-4{opacity: .3; top: 15%; left: 68%;}
+.section-2 .wrap .content .ctxt-2 .data-pictogram img.dot-5{opacity: 1; top: 85%; left: 4%;}
+.section-2 .wrap .content .ctxt-2 .data-pictogram img.dot-6{opacity: .3; top: 50%; left: 7%;}
+.section-2 .wrap .content .ctxt-2 .data-pictogram img.dot-7{opacity: .8; top: 32%; left: 85%;}
+.section-2 .wrap .content .ctxt-2 .data-pictogram img.dot-8{opacity: .5; top: 66%; left: 88%;}
+.section-2 .wrap .content .ctxt-2 .data-pictogram img.dot-9{opacity: .7; top: 87%; left: 32%;}
+
+.section-2 .wrap .content .ctxt-3 .data-pictogram{
+}
+.section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap{padding: 10vw 0; position: relative;}
+.section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .modal-texture{
+    width: 80vw;
+    height: 80vw;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: linear-gradient(to right, rgba(55, 211, 189, 0), rgba(55, 211, 189, .75));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    box-shadow: 5px 5px 15px rgba(55, 211, 189, .5);
+}
+.section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto{
+    width: 70%;
+    height: 100%;
+    aspect-ratio: 9 / 19;
+    position: relative;
+    z-index: 1;
+    border-radius: 5vw;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto > div{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5vw);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 3.125vw;
+    font-weight: 700;
+    background-repeat: no-repeat;
+    padding: 3vw;
+    border-radius: 3.5vw;
+}
+.section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-1{
+    width: 32vw;
+    height: 32vw;
+    aspect-ratio: 1 / 1;
+    top: 12%;
+    left: -10%;
+    background-image: url(../images/sub_images/glass-info-ico4.png);
+    background-position: right 0 bottom 0;
+    background-size: 60% auto;
+}
+.section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2{
+    width: 64vw;
+    height: 32vw;
+    top: 5%;
+    left: 55%;
+}
+.section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2 .t{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0.125vw 1.125vw;
+    border-radius: 100vw;
+}
+.section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2 .t img{width: 4vw; margin-right: 1vw;}
+.section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2 .c{display: flex; flex-wrap: wrap;}
+.section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2 .c div{width: 50%; padding: 1vw; font-size: 4.125vw;}
+.section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2 .c div span{font-size: 1vw; display: block; color: rgba(255, 255, 255, 0.5)}
+.section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-3{
+    width: 32vw;
+    height: 32vw;
+    top: 43%;
+    left: 10%;
+    background-image: url(../images/sub_images/glass-info-ico2.png);
+    background-size: 130% auto;
+    background-position: center top 10vw; 
+}
+.section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-4{
+    width: 32vw;
+    height: 32vw;
+    top: 39%;
+    left: 77%;
+    background-image: url(../images/sub_images/glass-info-ico3.png);
+    background-size: 50% auto;
+    background-position: right bottom;
+}
+.section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-5{
+    width: 96vw;
+    height: 32vw;
+    bottom: 3%;
+    right: 12%;
+    background-image: url(../images/sub_images/glass-info-ico5.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+.section-2 .wrap .content .ctxt-4 .data-pictogram img{width: 100%;}
+
+@media all and (min-width: 650px) {
+    .section-1 .wrap .content .ctxt{margin-bottom: 120px; display: flex; justify-content: space-between;}
+    .section-1 .wrap .content .ctxt-2{flex-direction: row-reverse;}
+    .section-1 .wrap .content .ctxt-4{flex-direction: row-reverse;}
+    .section-1 .wrap .content .ctxt .desc-box{margin-bottom: 0; width: 48.5%;}
+    .section-1 .wrap .content .ctxt .desc-box .desc-tit{font-size: 24px;}
+    .section-1 .wrap .content .ctxt .desc-box .desc-txt{font-size: 16px; margin: 16px 0 0 0;}
+    .section-1 .wrap .content .ctxt .data-pictogram{width: 48.5%;}
+
+    .section-1 .wrap .content .ctxt-1 .data-pictogram{overflow: hidden;}
+    .section-1 .wrap .content .ctxt-2 .data-pictogram{}
+    .section-1 .wrap .content .ctxt-3 .data-pictogram > div{width: 100%; }    
+    .section-1 .wrap .content .ctxt-3 .data-pictogram .demo-3 .demo-slider .slider-wrapper .slide-demo{width: 19vw; }    
+    .section-1 .wrap .content .ctxt-4 .data-pictogram .circle{width: 25vw; height: 25vw;}
+    .section-1 .wrap .content .ctxt-4 .data-pictogram .cities .city .city-in .ico{width: 5vw;}
+
+    .section-2 .wrap .content{position: relative;}
+    .section-2 .wrap .content .ctxt{margin-bottom: 0; height: 100vh; display: flex; align-items: center; justify-content: space-between;}
+    .section-2 .wrap .content .ctxt .desc-box{margin-bottom: 0; width: 48.5%;}
+    .section-2 .wrap .content .ctxt .desc-box .desc-tit{font-size: 24px;}
+    .section-2 .wrap .content .ctxt .desc-box .desc-txt{font-size: 16px; margin: 16px 0 0 0;}
+    .section-2 .wrap .content .ctxt .data-pictogram{width: 48.5%; height: 100vh; align-items: center; justify-content: center; position: absolute; top: 0; right: 0; display: none;}
+
+    .section-2 .wrap .content .ctxt-1 .data-pictogram{margin: 0; position: absolute; top: 0; right: 0; display: flex;}
+    .section-2 .wrap .content .ctxt-1 .data-pictogram img.data-pic2{top: 30%; transform: translate(-50%, 0);}
+    .section-2 .wrap .content .ctxt-1 .data-pictogram img.data-pic3{top: 30%; transform: translate(-50%, 0);}
+    .section-2 .wrap .content .ctxt-1 .data-pictogram img.data-pic4{top: 30%; transform: translate(-50%, -71%);}
+
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap{width: 100%;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .modal-texture{width: 45vw; height: 45vw;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto > div{font-size: 1.375vw; border-radius: 1.625vw; padding: 1.375vw;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-1{width: 13vw; height: 13vw;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2{width: 26vw; height: 13vw;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2 .t img{width: 2vw;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2 .c div{font-size: 1.625vw; padding: 0.375vw 0 0 0;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-3{width: 13vw; height: 13vw; background-position: center top 5vw}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-4{width: 13vw; height: 13vw;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-5{width: 39vw; height: 13vw;}
+
+}
+@media all and (min-width: 920px) {
+    .section-1 .wrap .content .ctxt{margin-bottom: 150px; padding: 36px 0;}
+    .section-1 .wrap .content .ctxt .desc-box .desc-tit{font-size: 28px;}
+    .section-1 .wrap .content .ctxt .desc-box .desc-txt{font-size: 20px; margin: 24px 0 0 0;}
+
+    .section-2 .wrap .content .ctxt .desc-box .desc-tit{font-size: 28px;}
+    .section-2 .wrap .content .ctxt .desc-box .desc-txt{font-size: 20px; margin: 24px 0 0 0;}
+}
+@media all and (min-width: 1200px) {
+    .section-1 .wrap .content .ctxt{margin-bottom: 150px; padding: 36px 0;}
+    .section-1 .wrap .content .ctxt .desc-box{display: flex; flex-direction: column; justify-content: center;}
+    .section-1 .wrap .content .ctxt-3 .desc-box{justify-content: flex-start;}
+    .section-1 .wrap .content .ctxt .desc-box .desc-tit{font-size: 36px;}
+    .section-1 .wrap .content .ctxt .desc-box .desc-txt{font-size: 24px; margin: 32px 0 0 0;}
+
+    .section-1 .wrap .content .ctxt-3 .data-pictogram .demo-3 .demo-slider .slider-wrapper .slide-demo{width: 19.5vw; }    
+
+    .section-2 .wrap .content .ctxt .desc-box .desc-tit{font-size: 36px;}
+    .section-2 .wrap .content .ctxt .desc-box .desc-txt{font-size: 24px; margin: 32px 0 0 0;}
+
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .modal-texture{width: 40vw; height: 40vw;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto{width: 60%; border-radius: 3vw;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto > div{font-size: 1.125vw; border-radius: 1.375vw; padding: 1.125vw;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-1{width: 10vw; height: 10vw;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2{width: 20vw; height: 10vw;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2 .t img{width: 1.5vw;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2 .c div{font-size: 1.125vw; padding: 0.125vw 0 0 0;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-3{width: 10vw; height: 10vw; background-position: center top 3.5vw}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-4{width: 10vw; height: 10vw;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-5{width: 30vw; height: 10vw;}
+}
+@media all and (min-width: 1540px) {
+    .section-1 .wrap .content .ctxt-3 .data-pictogram .demo-3 .demo-slider .slider-wrapper .slide-demo{width: 300px; }    
+    .section-1 .wrap .content .ctxt-4 .data-pictogram .circle{max-width: 385px; max-height: 385px;}
+    .section-1 .wrap .content .ctxt-4 .data-pictogram .cities .city .city-in .ico{width: 77px;}
+
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .modal-texture{max-width: 872px; max-height: 872px;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto{width: 60%; border-radius: 46.2px;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto > div{font-size: 19.25px; border-radius: 22px; padding: 19.25px;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-1{max-width: 154px; max-height: 154px;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2{max-width: 308px; max-height: 154px;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2 .t img{max-width: 23px;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-2 .c div{font-size: 19.25px; padding: 2px 0 0 0;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-3{max-width: 154px; max-height: 154px; background-position: center top 54px}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-4{max-width: 154px; max-height: 154px;}
+    .section-2 .wrap .content .ctxt-3 .data-pictogram .modal-wrap .proto .proto-con-5{max-width: 462px; max-height: 154px;}
+}

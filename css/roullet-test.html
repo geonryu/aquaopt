@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrapper {}
+
+        #wrapper section {}
+
+        #wrapper section .wrap {}
+
+        #wrapper section .wrap .tit {
+            text-align: center;
+            padding-top: 50px;
+            margin-bottom: 35px;
+        }
+
+        #wrapper section .wrap .tit h3 {
+            color: #37d3bd;
+            margin-bottom: 20px;
+        }
+
+        #wrapper section .wrap .tit p {
+            font-size: 12px;
+        }
+
+        #wrapper section .wrap .content {
+            width: max-content;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        #wrapper section .wrap .content .roulette {}
+
+        #wrapper section .wrap .content .roulette .circle1 {
+            position: relative;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            width: 660px;
+            height: 660px;
+            background-color: #f9fafb;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.05);
+        }
+
+        #wrapper section .wrap .content .roulette .circle1 .circle2 {
+            border: 1px solid #fff;
+            border-radius: 50%;
+            width: 495px;
+            height: 495px;
+            background-color: #edeff9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.05);
+        }
+
+        #wrapper section .wrap .content .roulette .circle1 .circle2 .circle3 {
+            border: 1px solid #fff;
+            border-radius: 50%;
+            width: 330px;
+            height: 330px;
+            background-color: #093557;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.05);
+        }
+
+        #wrapper section .wrap .content .roulette .circle1 .indicate {
+            display: block;
+            width: 20px;
+            height: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+        #wrapper section .wrap .content .roulette .circle1 .indicate::after{
+            content: '';
+            display: block;
+            width: 20px;
+            height: 20px;
+            background-color: #37d3bd;
+            transform: translateY(-50%);
+            border-radius: 50%;
+        }
+        #wrapper section .wrap .content .roulette .circle1 .indicate:nth-of-type(1){
+            transform: translate(-50%, -50%) rotate(0deg);
+        }
+        #wrapper section .wrap .content .roulette .circle1 .indicate:nth-of-type(2){
+            transform: translate(-50%, -50%) rotate(72deg);
+        }
+        #wrapper section .wrap .content .roulette .circle1 .indicate:nth-of-type(3){
+            transform: translate(-50%, -50%) rotate(144deg);
+        }
+        #wrapper section .wrap .content .roulette .circle1 .indicate:nth-of-type(4){
+            transform: translate(-50%, -50%) rotate(216deg);
+        }
+        #wrapper section .wrap .content .roulette .circle1 .indicate:nth-of-type(5){
+            transform: translate(-50%, -50%) rotate(288deg);
+        }
+
+        #wrapper section .wrap .content .text{}
+        #wrapper section .wrap .content .text div{position: absolute;}
+        #wrapper section .wrap .content .text div:nth-of-type(1){top: 0; left: 330px}
+        #wrapper section .wrap .content .text div:nth-of-type(2){top: calc(0.95 * 72px); left: calc(0.31 * 72px);}
+        #wrapper section .wrap .content .text div:nth-of-type(3){top: calc(); left: calc();}
+        #wrapper section .wrap .content .text div:nth-of-type(4){top: calc(); left: calc();}
+        #wrapper section .wrap .content .text div:nth-of-type(5){top: calc(); left: calc();}
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <section>
+            <div class="wrap">
+                <div class="tit">
+                    <h3>
+                        더 건강한 수산물 소비를 위한<br>
+                        잉어이력시스템
+                    </h3>
+                    <p>물고기의 양식 정보부터 상품화 단계까지 모든 이력들을 <br>기록하고 열람할 수 있습니다.</p>
+                </div>
+                <div class="content">
+                    <div class="roulette">
+                        <div class="circle1">
+                            <div class="circle2">
+                                <div class="circle3"></div>
+                            </div>
+                            <span class="indicate"></span>
+                            <span class="indicate"></span>
+                            <span class="indicate"></span>
+                            <span class="indicate"></span>
+                            <span class="indicate"></span>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <div>안전성<span class="en">SAFETY</span></div>
+                        <div>공정성<span class="en">FAIRNESS</span></div>
+                        <div>접근성<span class="en">ACCESSIBILITY</span></div>
+                        <div>투명성<span class="en">TRANSPARENCY</span></div>
+                        <div>혁신성<span class="en">INNOVATION</span></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>

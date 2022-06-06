@@ -1,0 +1,370 @@
+main {
+    background: url(../images/sub_images/tit-banner-cpt.jpg) no-repeat;
+    background-position: center right 30%;
+    background-size: cover;
+}
+.section-trace{
+    background-color: #edeff9;
+    
+}
+.section-trace .wrap .search-traceability{
+    padding: 12px 20px;
+    border-radius: 10px;
+    display: flex;
+    max-width: 640px;
+    margin: 0 auto;
+    width: 100%;
+}
+.section-trace .wrap .search-traceability .btn-qr-scanner{
+    width: 32px;
+    height: 32px;
+}
+.section-trace .wrap .search-traceability .btn-qr-scanner button{display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;}
+.section-trace .wrap .search-traceability .btn-qr-scanner button span{
+    display: block;
+    font-size: 18px;
+    font-weight: 900;
+    color: #37d3bd;
+}
+.section-trace .wrap .search-traceability form{
+    display: flex;
+    margin: 0 auto;
+    width: calc(100% - 32px);
+}
+.section-trace .wrap .search-traceability form input{
+    width: calc(100% - 32px);
+    margin-right: 20px;
+    padding-left: 20px;
+    display: block;
+}
+.section-trace .wrap .search-traceability form input::placeholder{
+    color: #0c1b2f;
+    font-size: 14px;
+}
+.section-trace .wrap .search-traceability form button{
+    background-color: #37d3bd;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-trace .wrap .search-traceability form button span{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    display: block;
+}
+
+/* qr-scan popup */
+.qr-monitor-pop{
+    position: fixed; top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    background-color: #093557;
+    display: none;
+}
+.qr-monitor-pop .qr-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.qr-monitor-pop .qr-wrapper .qr-heading{
+    height: 50px;
+    background-color: #093557;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qr-monitor-pop .qr-wrapper .qr-heading .message-box{
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+.qr-monitor-pop .qr-wrapper .qr-heading .btn-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.qr-monitor-pop .qr-wrapper .qr-heading .btn-close button{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qr-monitor-pop .qr-wrapper .qr-heading .btn-close button span{
+    font-weight: 900;
+    font-size: 24px;
+    display: block;
+    color: #37d3bd;
+}
+.qr-monitor-pop .qr-wrapper .content{height: calc(100% - 50px);}
+.qr-monitor-pop .qr-wrapper .content #canvas{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.qr-monitor-pop .qr-wrapper .content #vdo{
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.section-features{}
+.section-features .wrap{}
+.section-features .wrap .content{}
+.section-features .wrap .content .txt-box{}
+.section-features .wrap .content .txt-box .box-tit{}
+.section-features .wrap .content .txt-box .box-tit .en{color: #f0f0f0;}
+.section-features .wrap .content .txt-box .box-content{f}
+
+.section-qna{
+    background: #f9fafb;
+}
+.section-qna .wrap{}
+.section-qna .wrap h3{
+    font-size: 20px;
+    color: #093557;
+    margin-bottom: 35px;
+}
+.section-qna .wrap .content .questions li{
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.section-qna .wrap .content .questions li:last-child{
+    margin-bottom: 0;
+}
+.section-qna .wrap .content .questions li .inner{
+    overflow: hidden;
+}
+.section-qna .wrap .content .questions li .inner .que{
+    font-size: 14px;
+    font-weight: 700;
+}
+.section-qna .wrap .content .questions li .inner .que a{
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 18px;
+    position: relative;
+}
+.section-qna .wrap .content .questions li .inner .que a::after{
+    content: '';
+    display: block;
+    width: 14px;
+    height: 100%;
+    background-image: url(../images/m_images/ico-arrow-dropdown-active.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.section-qna .wrap .content .questions li.on .inner .que a::after{
+    transform: rotate(-180deg);
+}
+.section-qna .wrap .content .questions li .inner .ans{
+    font-size: 14px;
+    padding-top: 10px;
+    display: none;
+}
+
+.section-contact{
+    background: #edeff9;
+}
+.section-contact .wrap h3 {
+    font-size: 20px;
+    color: #093557;
+    margin-bottom: 35px;
+}
+
+.section-contact .wrap .content p{margin-bottom: 35px; font-size: 14px;}
+
+footer .wrap .content .sitemap div{color: #093557;}
+footer .wrap .content .information li{color: #093557;}
+footer .wrap address p{color: rgba(0,0,0,0.2);}
+footer .wrap address form.family-site{border: 1px solid #093557;}
+footer .wrap address form.family-site select {color: #093557; background-image: url(../images/m_images/ico-arrow-dropdown-active.png);}
+footer .wrap address form.family-site select option{color: #093557;}
+
+@media all and (min-width: 650px) {
+
+}
+
+@media all and (min-width: 920px) {
+
+    .section-trace .wrap .search-traceability{
+        padding: 18px 30px;
+        border-radius: 15px;
+        max-width: 640px;
+        margin: 0 auto;
+    }
+    
+    .section-trace .wrap .search-traceability form{
+        display: flex;
+        width: calc(100% - 32px);
+    }
+    .section-trace .wrap .search-traceability form input{
+        width: calc(100% - 32px);
+        margin-right: 20px;
+        padding-left: 20px;
+        display: block;
+    }
+    .section-trace .wrap .search-traceability form input::placeholder{
+        color: #0c1b2f;
+        font-size: 14px;
+    }
+    .section-trace .wrap .search-traceability form button{
+        background-color: #37d3bd;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-trace .wrap .search-traceability form button span{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 900;
+        display: block;
+    }
+
+    .section-trace .wrap .search-traceability form input::placeholder{
+        font-size: 18px;
+    }
+    .section-trace .wrap .search-traceability form button{
+        width: 42px;
+        height: 42px;
+    }
+    .section-trace .wrap .search-traceability form button span{
+        font-size: 24px;
+    }
+    .section-trace .wrap .search-traceability .btn-qr-scanner{
+        width: 42px;
+        height: 42px;
+    }
+    .section-trace .wrap .search-traceability .btn-qr-scanner button{display: flex; width: 100%; height: 100%; align-items: center; justify-content: center;}
+    .section-trace .wrap .search-traceability .btn-qr-scanner button span{
+        display: block;
+        font-size: 24px;
+        font-weight: 900;
+        color: #37d3bd;
+    }
+    
+    .section-qna .wrap{
+        display: flex;
+    }
+    .section-qna .wrap h3{
+        font-size: 32px;
+        margin-bottom: 0;
+        width: 30%;
+    }
+    .section-qna .wrap .content{
+        width: 70%;
+    }
+    .section-qna .wrap .content .questions li{
+        padding: 30px;
+        border-radius: 15px;
+    }
+    .section-qna .wrap .content .questions li .inner .que{
+        font-size: 16px;
+    }
+    .section-qna .wrap .content .questions li .inner .que a{
+        padding-right: 18px;
+    }
+    .section-qna .wrap .content .questions li .inner .que a::after{
+        width: 16px;
+    }
+    .section-qna .wrap .content .questions li .inner .ans{
+        font-size: 16px;
+        padding-top: 14px;
+    }
+
+    .section-contact .wrap{
+        display: flex;
+    }
+    .section-contact{
+        background: #edeff9;
+    }
+    .section-contact .wrap h3 {
+        font-size: 32px;
+        margin-bottom: 0;
+        width: 30%;
+    }
+    .section-contact .wrap .content{
+        width: 70%;
+    }
+    .section-contact .wrap .content p{margin-bottom: 42px; font-size: 16px;}
+}
+
+@media (min-width: 1200px){
+    .section-trace .wrap .search-traceability form input::placeholder{
+        font-size: 18px;
+    }
+    .section-trace .wrap .search-traceability form button{
+        width: 42px;
+        height: 42px;
+    }
+    .section-trace .wrap .search-traceability form button span{
+        font-size: 24px;
+    }
+    .section-qna .wrap{
+        display: flex;
+    }
+    .section-qna .wrap h3{
+        font-size: 32px;
+        margin-bottom: 0;
+        width: 30%;
+    }
+    .section-qna .wrap .content{
+        width: 70%;
+    }
+    .section-qna .wrap .content .questions li{
+        padding: 30px;
+        border-radius: 15px;
+    }
+    .section-qna .wrap .content .questions li .inner .que{
+        font-size: 16px;
+    }
+    .section-qna .wrap .content .questions li .inner .que a{
+        padding-right: 18px;
+    }
+    .section-qna .wrap .content .questions li .inner .que a::after{
+        width: 16px;
+    }
+    .section-qna .wrap .content .questions li .inner .ans{
+        font-size: 16px;
+        padding-top: 14px;
+    }
+
+    .section-contact .wrap{
+        display: flex;
+    }
+    .section-contact{
+        background: #edeff9;
+    }
+    .section-contact .wrap h3 {
+        font-size: 32px;
+        margin-bottom: 0;
+        width: 30%;
+    }
+    .section-contact .wrap .content{
+        width: 70%;
+    }
+    .section-contact .wrap .content p{margin-bottom: 42px; font-size: 16px;}
+}

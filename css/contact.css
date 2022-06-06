@@ -1,0 +1,107 @@
+main{background-image: url(../images/sub_images/contact-main-bg.jpg); background-position: center top 30%;}
+
+.thankyou_message{color: #000; text-align: center; font-size: 12px; margin-top: 12px; text-align: center; display: none;}
+
+.section-tit{padding-bottom: 0; background-color: #fff;}
+
+.section-contact-info{padding: 35px 0; background-color: #edeff9;}
+.section-contact-info .wrap{}
+.section-contact-info .wrap .contact-list{}
+.section-contact-info .wrap .contact-list li{text-align: center; margin-bottom: 20px;}
+.section-contact-info .wrap .contact-list li:last-child{margin-bottom: 0;}
+.section-contact-info .wrap .contact-list li .label-tit{display: block; font-size: 14px; color: #37d3bd; font-weight: 700;}
+
+.section-mail-form ::placeholder{font-size: 12px;}
+.section-mail-form form{background-color: #fff; padding: 0 5%;}
+.section-mail-form form .comment{text-align: center;}
+.section-mail-form form .comment .ico-mail{margin: 0 auto 12px; width: 35px; height: 35px; border-radius: 50%; background-color: #37d3bd; display: flex; justify-content: center; align-items: center;}
+.section-mail-form form .comment .ico-mail img{width: 50%;}
+.section-mail-form form .comment .comment-txt{}
+.section-mail-form form .user-data-field{display: flex; flex-wrap: wrap; margin-top: 40px;}
+.section-mail-form form .user-data-field > div{width: calc((100% - 12px) / 2); margin-bottom: 20px;}
+.section-mail-form form .user-data-field > div label{margin-bottom: 10px; display: block; font-weight: 500;}
+.section-mail-form form .user-data-field > div label span{color: #37d3bd; font-weight: 900; font-size: 16px;}
+.section-mail-form form .user-data-field > div input{padding: 10px 20px; border-radius: 12px; border: 1px solid #ccc; display: block; width: 100%;}
+.section-mail-form form .user-data-field .company-name{margin-right: 12px;}
+.section-mail-form form .user-data-field .user-name{}
+.section-mail-form form .user-data-field .phone-num{margin-right: 12px;}
+.section-mail-form form .user-data-field .user-email{}
+.section-mail-form form .user-data-field .add-info{width: 100%;}
+.section-mail-form form .user-data-field .add-info textarea{resize: none; padding: 20px; border-radius: 12px; border: 1px solid #ccc; display: block; width: 100%;}
+.section-mail-form form .user-data-field .ck-agree{width: 100%;}
+.section-mail-form form .user-data-field .ck-agree .privacy-policy{width: 100%;}
+.section-mail-form form .user-data-field .ck-agree .privacy-policy textarea{resize: none; padding: 20px; border-radius: 12px; border: 1px solid #ccc; display: block; width: 100%; height: 120px; font-size: 12px; margin-bottom: 10px;}
+.section-mail-form form .user-data-field .ck-agree label.ck{font-size: 14px; font-weight: 400; margin: 0; display: inline-block;vertical-align: middle;}
+.section-mail-form form .user-data-field .ck-agree input{padding: 0; display: inline-block; width: unset; vertical-align: middle;}
+.section-mail-form form .user-data-field .recaptcha{margin-left: auto; margin-right: auto; width: max-content;}
+.section-mail-form form .user-data-field .send-btn{margin-bottom: 0; width: 100%;}
+.section-mail-form form .user-data-field .send-btn button{width: 100%; display: block; padding: 10px 20px; border-radius: 12px; background-color: #37d3bd; color: #fff; font-weight: 600; margin: 0 auto;}
+
+
+.section-map{background-color: #093557;  padding: 60px 0 0;}
+.section-map .naver-map-link{margin-bottom: 40px; padding: 0 0 0 5%; font-size: 24px; font-weight: 700;}
+.section-map .naver-map-link .txt-wrap .map-tit{color: #fff;}
+.section-map .naver-map-link .txt-wrap .btn-more{color: #fff; margin-top: 12px;}
+.section-map figure.naver-map-api{}
+.section-map figure.naver-map-api div#map{height: 320px;}
+
+@media all and (min-width: 650px) {
+    .section-contact-info{padding: 42px 0;}
+
+    .section-map{padding: 80px 0 0;}
+    .section-map .naver-map-link{margin-bottom: 48px;}
+    .section-map .naver-map-link .txt-wrap .btn-more{margin-top: 14px;}
+    .section-map figure.naver-map-api div#map{height: 380px;}
+}
+@media all and (min-width: 920px) {
+    .section-tit{background-color: #f9fafb; padding-bottom: 60px;}
+    .section-tit .wrap{}
+    .section-tit .wrap .tit{}
+    .section-tit .wrap .tit .sec-tit{}
+    .section-tit .wrap .tit .sec-subtit{}
+
+    .section-contact-info{padding: 60px 5% 60px;}
+    .section-contact-info .wrap{}
+    .section-contact-info .wrap .contact-list{display: flex; justify-content: space-around;}
+    .section-contact-info .wrap .contact-list li{ margin-bottom: 0; font-size: 20px;}
+    .section-contact-info .wrap .contact-list li .label-tit{display: block; font-size: 16px; color: #37d3bd; font-weight: 700;}
+
+    .section-mail-form{}
+    .section-mail-form form{padding: 0 5%; max-width: 1540px; margin: 0 auto;}
+    .section-mail-form form .comment{text-align: center;}
+    .section-mail-form form .comment .ico-mail{margin: 0 auto 12px; width: 35px; height: 35px; border-radius: 50%; background-color: #37d3bd; display: flex; justify-content: center; align-items: center;}
+    .section-mail-form form .comment .ico-mail img{width: 50%;}
+    .section-mail-form form .comment .comment-txt{}
+    .section-mail-form form .user-data-field{display: flex; flex-wrap: wrap; margin-top: 40px;}
+    .section-mail-form form .user-data-field > div{width: calc((100% - 12px) / 2); margin-bottom: 20px;}
+    .section-mail-form form .user-data-field > div label{margin-bottom: 10px; display: block; font-weight: 500;}
+    .section-mail-form form .user-data-field > div label span{color: #37d3bd; font-weight: 900; font-size: 16px;}
+    .section-mail-form form .user-data-field > div input{padding: 10px 20px; border-radius: 12px; border: 1px solid #ccc; display: block; width: 100%;}
+    .section-mail-form form .user-data-field .company-name{margin-right: 12px;}
+    .section-mail-form form .user-data-field .user-name{}
+    .section-mail-form form .user-data-field .phone-num{margin-right: 12px;}
+    .section-mail-form form .user-data-field .user-email{}
+    .section-mail-form form .user-data-field .add-info{width: 100%;}
+    .section-mail-form form .user-data-field .add-info textarea{resize: none; padding: 10px 20px; border-radius: 12px; border: 1px solid #ccc; display: block; width: 100%;}
+    .section-mail-form form .user-data-field .send-btn{margin-bottom: 0; width: 100%;}
+    .section-mail-form form .user-data-field .send-btn button{width: 100%; display: block; padding: 10px 20px; border-radius: 12px; background-color: #37d3bd; color: #fff; font-weight: 600; margin: 0 auto;}
+
+    .section-map{display: flex;  padding: 0;}
+    .section-map .naver-map-link{margin-bottom: 0; padding-top: 60px; width: 300px;}
+    .section-map .naver-map-link .txt-wrap .btn-more{margin-top: 14px;}
+    .section-map figure.naver-map-api{width: calc(100% - 300px);}
+    .section-map figure.naver-map-api div#map{height: 380px;}
+}
+@media all and (min-width: 1200px) {
+    .section-map{display: flex; justify-content: center;}
+    .section-map .naver-map-link{padding-top: 80px; font-size: 42px; width: 35%;}
+    .section-map .naver-map-link .txt-wrap .btn-more{margin-top: 14px;}
+    .section-map figure.naver-map-api{width: 65%;}
+    .section-map figure.naver-map-api div#map{height: 480px;}
+}
+@media all and (min-width: 1540px) {
+    .section-map{ padding: 0 5%; }
+    .section-map .naver-map-link{padding-left: 0;width: calc(1540px * 0.3);}
+    .section-map .txt-wrap{margin-left: auto;}
+    .section-map figure.naver-map-api{width: calc(1540px * 0.7);}
+}

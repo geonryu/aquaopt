@@ -1,0 +1,103 @@
+main{background-image: url(../images/sub_images/aquaopt-tank-ex2.jpg); background-position: center bottom;}
+
+.section-1{}
+.section-1 .wrap{}
+.section-1 .wrap .tit{}
+.section-1 .wrap .tit .sec-tit{}
+.section-1 .wrap .content{}
+.section-1 .wrap .content .c-box{margin-bottom: 40px;}
+.section-1 .wrap .content .c-box:last-child{margin-bottom: 0;}
+.section-1 .wrap .content .c-box .c-tit{padding: 0 16px; font-size: 16px; font-weight: 700; line-height: normal; margin-bottom: 12px; text-align: center;}
+.section-1 .wrap .content .c-box .c-tit span{color: #cccccc; font-size: 14px; display: block;}
+.section-1 .wrap .content .c-box .c-thumb{overflow: hidden; border-radius: 16px; box-shadow: 3px 3px 3px rgba(0,0,0,0.1);}
+.section-1 .wrap .content .c-box .c-thumb img{width:100%;height:100%;aspect-ratio:16/9;object-fit:cover;object-position:center center}
+.section-1 .wrap .content .c-box .c-txt{font-size: 14px; margin-top: 12px; padding: 0 16px;}
+
+.section-2{padding-bottom: 0; background-color: #f9fafb;}
+.section-2 .tit{}
+.section-2 .tit .sec-tit{}
+.section-2 .content{}
+.section-2 .content .c-row{position: relative;}
+.section-2 .content .c-row:last-child{margin-bottom: 0;}
+.section-2 .content .c-row1{background-color: #f9fafb; padding: 0 0 40px 0;}
+.section-2 .content .c-row2{background-color: #edeff9; padding: 40px 0 80px 0;}
+.section-2 .content .c-row .c-thumb{position: relative; overflow: hidden; border-radius: 16px; box-shadow: 3px 3px 3px rgba(0,0,0,0.1);}
+.section-2 .content .c-row .c-thumb img{width:100%;height:100%;aspect-ratio:1/1;object-fit:cover;object-position:center center}
+.section-2 .content .c-row .c-thumb::after{content:'';display:block;width:100%;height:100%;position:absolute;top:0;left:0;background-color:rgba(0,0,0,.5)}
+.section-2 .content .c-row .c-txt{color: #fff; position: absolute; bottom: 0; left: 0; padding: 16px;}
+.section-2 .content .c-row .c-txt .c-txt-tit{font-size: 16px; font-weight: 700;}
+.section-2 .content .c-row .c-txt .c-txt-desc{font-size: 14px; margin-top: 12px; font-weight: 500;}
+
+.section-3{background-image: url(../images/sub_images/sus-health-link-bg.jpg); background-size: cover; background-position: center center; color: #fff;}
+.section-3::after{content: '';display: block;width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: linear-gradient(to right, rgba(9,53,87,1), rgba(9,53,87,0));}
+.section-3 .wrap{}
+.section-3 .wrap .more-tit{font-size: 20px; font-weight: 700;}
+.section-3 .wrap .more-txt{font-size: 14px; margin-top: 16px;}
+.section-3 .wrap .more-txt .btn-more{font-size: 14px; color: #fff; margin-top: 12px;}
+
+@media all and (min-width: 650px) {
+    .section-1 .wrap .content{}
+    .section-1 .wrap .content .c-box{margin-bottom: 48px;}
+    .section-1 .wrap .content .c-box .c-tit{padding: 0 20px; font-size: 20px;}
+    .section-1 .wrap .content .c-box .c-tit span{font-size: 16px;}
+    .section-1 .wrap .content .c-box .c-thumb{border-radius: 20px; box-shadow: 5px 5px 5px rgba(0,0,0,0.1);}
+    .section-1 .wrap .content .c-box .c-txt{font-size: 16px; margin-top: 16px; padding: 0 20px;}
+
+    .section-2 .content .c-row1{padding: 0 0 48px 0;}
+    .section-2 .content .c-row2{padding: 48px 0 104px 0;}
+    .section-2 .content .c-row .c-thumb{border-radius: 20px; box-shadow: 5px 5px 5px rgba(0,0,0,0.1);}
+    .section-2 .content .c-row .c-txt{padding: 20px;}
+    .section-2 .content .c-row .c-txt .c-txt-tit{font-size: 20px;}
+    .section-2 .content .c-row .c-txt .c-txt-desc{font-size: 16px; margin-top: 16px;}
+
+    .section-3 .wrap .more-tit{font-size: 24px;}
+    .section-3 .wrap .more-txt{font-size: 16px; margin-top: 20px;}
+    .section-3 .wrap .more-txt .btn-more{font-size: 16px; margin-top: 16px;}
+}
+@media all and (min-width: 920px) {
+    .section-1 .wrap .content{display: flex; justify-content: space-between;}
+    .section-1 .wrap .content .c-box{margin-bottom: 0; margin-right: 16px; width: 100%;}
+    .section-1 .wrap .content .c-box:last-child{margin-right: 0;}
+    .section-1 .wrap .content .c-box .c-tit{padding: 0 24px; font-size: 24px;}
+    .section-1 .wrap .content .c-box .c-tit span{font-size: 20px;}
+    .section-1 .wrap .content .c-box .c-thumb{border-radius: 24px;}
+    .section-1 .wrap .content .c-box .c-txt{font-size: 20px; margin-top: 20px; padding: 0 20px;}
+
+    .section-2 .content .c-row1{padding: 0 0 48px 0;}
+    .section-2 .content .c-row2{padding: 48px 0 104px 0;}
+    .section-2 .content .c-row .wrap{display: flex; justify-content: space-between;}
+    .section-2 .content .c-row2 .wrap{flex-direction: row-reverse; align-items: flex-end;}
+    .section-2 .content .c-row .c-thumb{border-radius: 24px; width: 48.5%;}
+    .section-2 .content .c-row .c-thumb img{}
+    .section-2 .content .c-row .c-thumb::after{content:none;}
+    .section-2 .content .c-row .c-txt{width: 48.5%; padding: 20px; position: static; bottom: unset; left: unset; color: inherit;}
+    .section-2 .content .c-row .c-txt .c-txt-tit{font-size: 20px;}
+    .section-2 .content .c-row .c-txt .c-txt-desc{font-size: 16px; margin-top: 20px;font-weight: 300;}
+
+    .section-3 .wrap{display: flex; justify-content: space-between;}
+    .section-3 .wrap .more-tit{font-size: 32px; width: 48.5%;}
+    .section-3 .wrap .more-txt{font-size: 20px; margin-top: 0; width: 48.5%;}
+    .section-3 .wrap .more-txt .btn-more{font-size: 20px; margin-top: 20px;}
+}
+@media all and (min-width: 1200px) {
+    .section-1 .wrap .content .c-box{margin-right: 24px;}
+    .section-1 .wrap .content .c-box .c-tit{padding: 0 28px; font-size: 28px; text-align: left;}
+    .section-1 .wrap .content .c-box .c-thumb{border-radius: 28px;}
+    .section-1 .wrap .content .c-box .c-txt{margin-top: 24px; padding: 0 24px;}
+
+    .section-2{padding: 128px 0 0 0;}
+    .section-2 .content .c-row1{padding: 0 5% 60px;}
+    .section-2 .content .c-row2{padding: 60px 5% 160px;}
+    .section-2 .content .c-row .wrap{display: flex; justify-content: space-between; align-items: center;}
+    .section-2 .content .c-row2 .wrap{flex-direction: row-reverse; align-items: center;}
+    .section-2 .content .c-row .c-thumb{border-radius: 28px; width: 48.5%;}
+    .section-2 .content .c-row .c-thumb img{}
+    .section-2 .content .c-row .c-txt{width: 48.5%; padding: 24px;}
+    .section-2 .content .c-row .c-txt .c-txt-tit{font-size: 32px;}
+    .section-2 .content .c-row .c-txt .c-txt-desc{font-size: 20px; margin-top: 24px;}
+
+    .section-3 .wrap .more-tit{font-size: 36px;}
+    .section-3 .wrap .more-txt{font-size: 24px;}
+    .section-3 .wrap .more-txt .btn-more{font-size: 24px; margin-top: 24px;}
+}
+@media all and (min-width: 1540px) {}

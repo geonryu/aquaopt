@@ -1,0 +1,591 @@
+@media all and (min-width: 650px) {
+    header .wrap{
+        margin: 0 7.5%;
+    }
+    header .wrap nav {
+        overflow-y: unset;
+    }
+
+    header .wrap nav::before {
+        width: 40%;
+        height: 100vh;
+        background-size: auto 120%;
+    }
+    header .wrap nav.active::before{background-size: auto 120%;}
+
+    header .wrap nav::after {
+        width: 40%;
+        height: 100vh;
+    }
+
+    header .wrap nav .nav-wrapper {
+        width: 60%;
+        margin-left: 40%;
+        padding: 0;
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+    header .wrap nav .nav-wrapper .gnb {
+        padding: 40px 5%;
+    }
+
+    header .wrap nav .nav-wrapper .gnb li {
+        font-size: 28px;
+    }
+
+    header .wrap nav .nav-wrapper .gnb li:last-child {
+        margin-bottom: 0;
+    }
+
+    section {
+        padding: 80px 0 104px;
+    }
+
+    section .wrap {
+        margin: 0 7.5%;
+    }
+
+    section .tit {
+        margin-bottom: 42px;
+    }
+
+    .sec-subject {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+
+    .sec-tit {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .sec-subtit {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    .btn-more {
+        font-size: 16px;
+    }
+
+    .btn-more span {
+        font-size: 20px;
+        margin-left: 8px;
+    }
+
+    section .tit .btn-more a {
+        justify-content: center;
+    }
+
+    .section-main .wrap::before {
+        height: 280px;
+    }
+
+    .section-main .txt {
+        position: relative;
+        z-index: 1;
+    }
+
+    .section-main .txt .txt-wrapper h2 {
+        font-size: 36px;
+    }
+
+    .section-main .txt .txt-wrapper .btn {
+        color: #fff;
+    }
+
+    .section-main .motion-circle {
+        bottom: -100px;
+        right: -20%;
+        width: 525px;
+    }
+
+    .section-innovation .wrap .mobile-demo-mockup {
+        width: 40%;
+    }
+
+    .section-innovation .bg-cube {
+        perspective: 1500px;
+        width: 85%;
+    }
+
+    .section-milestones .wrap .milestones .year-count {
+        margin: 0 auto 24px;
+    }
+
+    .section-milestones .wrap .milestones .year-count div {
+        height: 120px;
+    }
+
+    .section-milestones .wrap .milestones .year-count div span {
+        font-size: 120px;
+        font-size: 120px;
+        line-height: 120px;
+    }
+
+    .section-milestones .wrap .milestones .history .indicates .dot button {
+        margin: 0 8px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .section-milestones .wrap .milestones .history .indicates .dot:before,
+    .section-milestones .wrap .milestones .history .indicates .dot:after {
+        width: calc((100% - 28px) / 2);
+    }
+
+    .section-milestones .wrap .milestones .history .descriptions .desc {
+        width: 80%;
+        margin: 40px auto 0;
+    }
+
+    .section-milestones .wrap .milestones .history .descriptions .desc .thumb {
+        width: 48%;
+    }
+
+    .section-milestones .wrap .milestones .history .descriptions .desc .txt {
+        width: 48%;
+    }
+
+    .section-milestones .wrap .milestones .history .descriptions .desc .txt .desc-tit {
+        font-size: 14px;
+        margin: 0 0 12px;
+    }
+
+    .section-milestones .wrap .milestones .history .descriptions .desc .txt .desc-txt {
+        font-size: 14px;
+    }
+
+
+    .section-health .wrap .content .content-box .box .explain {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .section-health .wrap .content .content-label .content-label-tit button {
+        font-size: 14px;
+    }
+
+
+    .section-traceability .wrap .content .box {
+        border-radius: 15px;
+        padding: 30px;
+    }
+
+    .section-traceability .wrap .content .box:last-child {
+        margin-bottom: 0;
+    }
+
+    .section-traceability .wrap .content .box .ico {
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        width: 20%;
+        margin-right: 30px;
+    }
+
+    .section-traceability .wrap .content .box .ico img {
+        width: 60%;
+    }
+
+    .section-traceability .wrap .content .box .explain {
+        color: #fff;
+    }
+
+    .section-traceability .wrap .content .box .explain .explain-tit {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        line-height: 18px;
+    }
+
+    .section-traceability .wrap .content .box .explain .explain-txt {
+        font-size: 14px;
+    }
+    
+    .section-contact .btn-contact span{
+        color: #fff;
+    }
+    
+    footer .wrap {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 7.5%;
+    }
+
+    footer .wrap h2 {
+        margin-right: 30px;
+        width: 120px;
+    }
+    footer .wrap .content {
+        width: calc(100% - 30px - 120px);
+    }
+
+    footer .wrap .content .sitemap {
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: unset;
+    }
+
+    footer .wrap .content .sitemap .sitemap-tit {
+        font-size: 12px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    footer .wrap .content .sitemap div {
+        font-size: 16px;
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    footer .wrap .content .sitemap div:last-of-type {
+        margin-right: 0;
+    }
+
+    footer .wrap .content .information {
+        text-align: unset;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    footer .wrap .content .information li {
+        margin-bottom: 12px;
+    }
+
+    footer .wrap .content .information li span {
+        margin-right: 0;
+    }
+
+    footer .wrap address {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    footer .wrap address p {
+        text-align: left;
+    }
+
+    footer .btn-scr-top .scr-top {
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    footer .wrap address form.family-site{
+        margin: unset;
+    }
+
+    footer .wrap address form.family-site select{
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width: 920px) {
+    header {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 72px;
+        /* backdrop-filter: blur(9.5px);
+        -webkit-backdrop-filter: blur(9.5px); */
+        background: linear-gradient(to bottom, rgba(12,27,47,1), rgba(12,27,47,0));
+    }
+
+    header .wrap {
+        margin: 0 7.5%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .wrap h1 {
+        position: static;
+        width: 120px;
+    }
+    header .wrap .nav-control-toggle {
+        position: static;
+        z-index: 2000;
+        padding: 10px 0;
+    }
+    header .wrap .nav-control-toggle button {
+        display: block;
+        height: 19px;
+        padding: 8px 0;
+        width: 40px;
+        position: relative;
+        transition: all 0.4s;
+    }
+    
+    header .wrap nav .nav-wrapper .gnb{
+        padding: 0 10%;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .sec-subject {
+        font-size: 14px;
+    }
+
+    .sec-tit {
+        font-size: 32px;
+        margin-bottom: 14px;
+    }
+
+    .sec-subtit {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+
+    .btn-more {
+        font-size: 18px;
+    }
+
+    .btn-more span {
+        font-size: 22px;
+        margin-left: 8px;
+    }
+
+    .section-main .txt .txt-wrapper h2 {
+        font-size: 42px;
+    }
+
+    .section-main .motion-circle {
+        bottom: -150px;
+        right: -10%;
+        width: 620px;
+    }
+
+    .section-innovation .wrap .mobile-demo-mockup {
+        width: 35%;
+    }
+
+    .section-innovation .bg-cube {
+        perspective: 1700px;
+        width: 85%;
+    }
+
+    .section-milestones .wrap .milestones .year-count {
+        margin: 0 auto 28px;
+    }
+
+    .section-milestones .wrap .milestones .year-count div {
+        height: 140px;
+    }
+
+    .section-milestones .wrap .milestones .year-count div span {
+        font-size: 140px;
+        font-size: 140px;
+        line-height: 140px;
+    }
+
+    .section-milestones .wrap .milestones .history .indicates .dot button {
+        margin: 0 10px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .section-milestones .wrap .milestones .history .indicates .dot:before,
+    .section-milestones .wrap .milestones .history .indicates .dot:after {
+        width: calc((100% - 36px) / 2);
+        height: 3px;
+    }
+
+    .section-milestones .wrap .milestones .history .descriptions .desc {
+        max-width: 640px;
+        margin: 48px auto 0;
+    }
+
+    .section-milestones .wrap .milestones .history .descriptions .desc .thumb {
+        width: 48%;
+    }
+
+    .section-milestones .wrap .milestones .history .descriptions .desc .txt {
+        width: 48%;
+    }
+
+    .section-milestones .wrap .milestones .history .descriptions .desc .txt .desc-tit {
+        font-size: 16px;
+        margin: 0 0 12px;
+    }
+
+    .section-milestones .wrap .milestones .history .descriptions .desc .txt .desc-txt {
+        font-size: 14px;
+    }
+
+    .section-health .tit {
+        text-align: left;
+        width: 52%;
+    }
+
+    .section-health .sec-subject {
+        text-align: left;
+    }
+
+    .section-health .btn-more {
+        margin-right: auto;
+    }
+
+    .section-health .wrap .content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section-health .wrap .content .content-label {
+        width: 52%;
+    }
+
+    .section-health .wrap .content .content-label .content-label-tit button{
+        font-size: 16px;
+    }
+
+    .section-health .wrap .content .content-box {
+        padding: 30px 0 0;
+        width: 52%;
+        margin: 0;
+    }
+
+    .section-health .wrap .content .content-box .box .explain {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .section-health .wrap .content .content-box .box.optimize .explain {
+        background: unset;
+        padding-top: unset;
+        background-size: unset;
+        background-color: #0c1b2f;
+    }
+
+    .section-health .wrap .content .content-box .box.envment .explain {
+        background: unset;
+        padding-top: unset;
+        background-size: unset;
+        background-color: #0c1b2f;
+    }
+
+    .section-health .wrap .content .content-box .box.valuable .explain {
+        background: unset;
+        padding-top: unset;
+        background-size: unset;
+        background-color: #0c1b2f;
+    }
+    .section-health .wrap .content .infographic-slider{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 43%;
+        height: 100%;
+    }
+    .section-health .wrap .content .infographic-slider > div{display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+    .section-health .wrap .content .infographic-slider > .item-1{display: block;}
+    .section-health .wrap .content .infographic-slider > div img{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+    .section-health .wrap .content .btn-more {
+        margin-bottom: 35px;
+        order: 1;
+        display: flex;
+        justify-content: center;
+    }
+    .section-traceability .wrap .content{
+        display: flex;
+    }
+    .section-traceability .wrap .content .box{
+        display: block;
+        margin-right: 24px;
+        margin-bottom: 0;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .section-traceability .wrap .content .box:nth-child(2){transition-delay: 0.1s;}
+    .section-traceability .wrap .content .box:nth-child(3){transition-delay: 0.2s;}
+    .section-traceability .wrap .content .box:last-child{margin-right: 0;}
+    .section-traceability .wrap .content .box .ico{
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: unset;
+        height: 40px;
+    }
+    .section-traceability .wrap .content .box .ico img{width: unset; height: 100%;}
+    .section-traceability .wrap .content .box .explain{text-align: center;}
+    .section-traceability .wrap .content .box .explain .explain-tit{
+        font-size: 16px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+    }
+    .section-traceability .wrap .content .box .explain .explain-txt{
+        font-size: 14px;
+    }
+    .section-contact .btn-contact a{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        padding: 8px 42px;
+        background-color: #37d3bd;
+        border-radius: 100px;
+    }
+    .section-contact .btn-contact span{
+        font-size: 24px;
+    }
+
+    footer .wrap h2 {
+        width: 184px;
+        margin-right: 40px;
+    }
+
+    footer .wrap .content {
+        width: calc(100% - 40px - 184px);
+    }
+
+    footer .wrap .content .sitemap {
+        margin-bottom: 40px;
+        justify-content: space-between;
+    }
+
+    footer .wrap .content .sitemap .sitemap-tit {
+        font-size: 14px;
+    }
+
+    footer .wrap .content .sitemap div {
+        font-size: 20px;
+        margin-right: 0;
+    }
+
+    footer .wrap .content .sitemap div:last-of-type {
+        margin-right: 0;
+    }
+
+    footer .wrap .content .information {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    footer .wrap .content .information li {
+        font-size: 20px;
+    }
+    footer .wrap .content .information li span {
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+    footer .wrap address {
+        margin-top: 40px;
+        padding-top: 40px;
+    }
+
+    footer .wrap address p {
+        font-size: 14px;
+    }
+
+    footer .btn-scr-top{
+        right: 7.5%;
+    }
+}
